@@ -14,7 +14,7 @@ const Banner = () => {
         <div className="flex justify-center items-center">
           <motion.img
           initial={{ opacity: 0, scale: 0.5 }} 
-          whileInView={{ opacity: 1, scale:1 }} 
+          whileInView={{ opacity: 1, scale: 1 }} 
           transition={{ type: "spring", stiffness: 100, delay: 0.2 }} 
           viewport={{ once: true }} 
           src={BannerPng} 
@@ -29,13 +29,13 @@ const Banner = () => {
             variants={FadeUp(0.5)}
             initial="hidden"
             animate="visible"
-            viewport={{ once: true}} 
+            viewport={{ once: true }} 
             className="text-3xl lg:text-6xl font-bold uppercase">Brand Info</motion.h1>
             <motion.p
             variants={FadeUp(0.7)}
             initial="hidden"
             animate="visible"
-            viewport={{ once: true}}
+            viewport={{ once: true }}
             >
             Ad eu magna officia voluptate elit. Nulla commodo enim pariatur ad adipisicing nostrud id dolor nulla aliquip labore 
             Consectetur nulla proident dolor sint proident veniam ullamco incididunt ut excepteur non consectetur exercitation es
@@ -45,7 +45,7 @@ const Banner = () => {
             variants={FadeUp(0.9)}
             initial="hidden"
             animate="visible"
-            viewport={{ once: true}}
+            viewport={{ once: true }}
             >
               Ad eu magna officia voluptate elit. Nulla commodo enim pariatur ad adipisicing nostrud id dolor nulla aliquip labore excepteur qui eiusmod. 
               Consectetur nulla proident dolor sint proident veniam ullamco incididunt ut excepteur non consectetur exercitation esse. Anim incididunt ex ad fugiat. 
