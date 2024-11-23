@@ -17,13 +17,13 @@ const Banner2 = () => {
             variants={FadeUp(0.5)}
             initial="hidden"
             animate="visible"
-            viewport={{ once: true}} 
+            viewport={{ once: true }} 
             className="text-3xl lg:text-6xl font-bold uppercase">Online Fruit Store</motion.h1>
             <motion.p
             variants={FadeUp(0.7)}
             initial="hidden"
             animate="visible"
-            viewport={{ once: true}}
+            viewport={{ once: true }}
             >
             Ad eu magna officia voluptate elit. Nulla commodo enim pariatur ad adipisicing nostrud id dolor nulla aliquip labore 
             Consectetur nulla proident dolor sint proident veniam ullamco incididunt ut excepteur non consectetur exercitation es
@@ -33,7 +33,7 @@ const Banner2 = () => {
             variants={FadeUp(0.9)}
             initial="hidden"
             animate="visible"
-            viewport={{ once: true}}
+            viewport={{ once: true }}
             >
               Ad eu magna officia voluptate elit. Nulla commodo enim pariatur ad adipisicing nostrud id dolor nulla aliquip labore excepteur qui eiusmod. 
               Consectetur nulla proident dolor sint proident veniam ullamco incididunt ut excepteur non consectetur exercitation esse. Anim incididunt ex ad fugiat. 
@@ -55,9 +55,9 @@ const Banner2 = () => {
         {/* Banner Image */}
         <div className="flex justify-center items-center">
           <motion.img
-          initial={{ opacity: 0, x:200, rotate: 75 }} 
+          initial={{ opacity: 0, x: 200, rotate: 75 }} 
           whileInView={{ opacity: 1, x: 0, rotate: 0 }} 
-          transition={{ duration:2, delay: 0.2 }} 
+          transition={{ duration: 2, delay: 0.2 }} 
           viewport={{ once: true }} 
           src={BannerPng} 
           alt="" 
